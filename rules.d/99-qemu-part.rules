@@ -1,0 +1,2 @@
+SUBSYSTEM=="block", KERNEL=="nvme0n1p4", GROUP="qemu-local-vms"
+SUBSYSTEM=="vfio", GROUP="qemu-local-vms"
